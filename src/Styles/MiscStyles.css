@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'ROG Font'; 
+  src: url('../Fonts/7032-fontps.ttf') format('truetype'); 
+}
+.submit {
+    color: #FFFFFF;
+    background-color: #023E8A;
+    border: 0.5px soild #FFFFFF;
+    border-radius: 8px;
+    height: 40px;
+    width: 80px;
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+  }
+  
+  .submit:hover {
+    background-color: #FFFFFF;
+    color: #023E8A;
+    
+  }
+  
+  .container {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/mainmain.png"),url("../assets/halftrans.jpg");
+    background-blend-mode: lighten;
+  }
+  
+  .container::before {
+    content: "";
+    background-image: url('../assets/pages-background.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: blur(50px); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 30%;
+    width: 100%;
+  }
+  
+  .box1{
+    height: 150px;
+    border: var(--background-col);
+    flex: 50%;
+    order: 1;
+    padding:150px;
+    display: block;
+  
+    border-color: black;
+    margin-top: 200px;
+    margin-bottom: auto;
+    border-radius: 5em;
+    background-color: var(--background-col);
+    color: var(--background-col); 
+    background: rgb(1,143,166);
+    background: radial-gradient(circle, rgb(224, 219, 219) 0%, rgb(0, 0, 0) 100%);
+    opacity: 80%;
+  }
+  @media (max-width: 1000px) {
+    .box1,.box3 {
+      height: 50%;
+      width: 50%;
+      margin-left: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 800px) {
+    .box1,.box3 {
+    
+    width: 25%;
+    height: 25%;
+    margin-bottom: 2px;
+    margin-left: 0%;
+  }
+  
+}
+@media (max-width: 400px) {
+  .box1,.box3 {
+  
+    width: 20%;
+    height: 20%;
+    margin-bottom: 2px;
+    margin-left: 0%;
+  }
+}
+@media (max-width: 200px) {
+  .box1,.box3 {
+  
+  width: 10%;
+  height: 10%;
+  margin-bottom: 2px;
+  margin-left: 0%;
+}
+} 
+.box1:hover{
+  transform: scale(1.05);
+  
+  -webkit-filter: blur(0px);
+-moz-filter: blur(0px);
+-o-filter: blur(0px);
+-ms-filter: blur(0px);
+filter: blur(0px);
+transition: 0.5s;
+}
+@media (max-width: 1000px) {
+  .box1:hover,.box2:hover,.box3:hover {
+    
+    transform: scale(1.05);
+  }
+}
+.box1:not(:hover),.box3:not(:hover){
+  transition: 0.5s;
+}
+.box1:not(:hover){
+  transition: 1s;
+}
+.box3{
+  height: 150px; 
+  border: var(--background-col);
+  flex: 50%;
+  order: 2;
+  padding:150px;
+  display: block;
+   margin-left: 5%; 
+   margin-right: 15%; 
+  margin-top: 200px;
+  margin-bottom: auto;
+  border-radius: 5em;
+  border-color: black;;
+  background-color: var(--background-col);
+  color: var(--background-col); 
+  background: rgb(1,143,166);
+  background: radial-gradient(circle, rgb(224, 219, 219) 0%, rgb(0, 0, 0) 100%);
+    opacity: 80%;
+  }
+  @media (max-width: 1000px) {
+    .box1,.box3 {
+      height: 50%;
+      width: 50%;
+      margin-left: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  @media (max-width: 800px) {
+    .box1,.box3 {
+    
+    width: 25%;
+    height: 25%;
+    margin-bottom: 2px;
+    margin-left: 0%;
+  }
+}
+@media (max-width: 400px) {
+  .box1,.box3 {
+  
+  width: 20%;
+  height: 20%;
+  margin-bottom: 2px;
+  margin-left: 0%;
+}
+}
+@media (max-width: 200px) {
+  .box1,.box3 {
+  
+  width: 10%;
+  height: 10%;
+  margin-bottom: 2px;
+  margin-left: 0%;
+}
+}
+.box3:hover{
+  transform:  scale(1.05);
+  -webkit-filter: blur(0px);
+-moz-filter: blur(0px);
+-o-filter: blur(0px);
+-ms-filter: blur(0px);
+filter: blur(0px);
+transition: 0.5s;
+}
+@media (max-width: 1000px) {
+  .box1:hover,.box2:hover,.box3:hover {
+    
+    transform: scale(1.05);
+  }
+}
+.box1:not(:hover),.box3:not(:hover){
+  transition: 0.5s;
+}
+.Stu{
+  font-family: 'ROG Font';
+  font-size: 2.5rem;
+}
+  
