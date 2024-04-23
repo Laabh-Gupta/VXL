@@ -1,5 +1,5 @@
 // import React from 'react'
-import LogoWhite from "../assets/LogoWhite.png";
+// import LogoWhite from "../assets/LogoWhite.png";
 import "../Styles/Footer.css";
 //import TransalateButton from "./TransalateButton";
 
@@ -35,7 +35,7 @@ const Footer = () => {
             <br />
           </div>
         </div>
-        <img className="right-footer" src={LogoWhite}></img>
+        {/* <img className="right-footer" src={LogoWhite}></img> */}
       </footer>
     </>
   );

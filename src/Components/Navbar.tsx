@@ -13,7 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import LogoWhite from "../assets/LogoWhite.png";
+// import LogoWhite from "../assets/LogoWhite.png";
 import { getAuth, signOut } from "firebase/auth"; // Import Firebase auth methods
 
 import "../Styles/Navbar.css";
@@ -106,11 +106,11 @@ export default function DrawerAppBar(props: Props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            <img
+            {/* <img
               src={LogoWhite}
               alt="Logo"
               style={{ height: "85px", padding: "8px 0" }}
-            />
+            /> */}
           </Typography>
           <Box
             sx={{
@@ -182,3 +182,4 @@ export default function DrawerAppBar(props: Props) {
     </Box>
   );
 }
+// end

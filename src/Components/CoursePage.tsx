@@ -5,7 +5,7 @@ import EmptyImage from "../assets/defaultCourse.png";
 import Calendar from "./Calender";
 import UploadWindow from "./UploadWindow";
 import { Button } from "@mui/material";
-import firebase from "firebase/app";
+//import firebase from "firebase/app";
 import "firebase/auth";
 
 interface Assignment {
@@ -53,7 +53,7 @@ const CoursePage: React.FC<CoursePageProps> = ({ setCurrentPage, details }) => {
     setShowUploadWindow(true);
   };
 
-  const storageStr = `${""}_${details.courseCode}`;
+  //const storageStr = `${""}_${details.courseCode}`;
 
   return (
     <>
